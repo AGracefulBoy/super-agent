@@ -1,0 +1,10 @@
+spring:
+  ai:
+    openai:
+      api-key: xxxx
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+      embedding:
+        enabled: false
